@@ -210,13 +210,14 @@ export default function App() {
         ))}
       </Grid>
       <Grid item lg={6} className={classes.grid2}>
-        <Typography>
+        <Typography item variant="overline">
           <em>
             {selectedType
               ? `Type ${selectedType} selected`
               : `No type selected`}
           </em>
         </Typography>
+        <br />
         <FormControl style={{ marginTop: 10 }}>
           <InputLabel>Thickness</InputLabel>
           <Select
