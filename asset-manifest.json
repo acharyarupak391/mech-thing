@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mech-thing/static/css/main.12c1305a.chunk.css",
+    "main.js": "/mech-thing/static/js/main.79a4b024.chunk.js",
+    "main.js.map": "/mech-thing/static/js/main.79a4b024.chunk.js.map",
+    "runtime-main.js": "/mech-thing/static/js/runtime-main.849a2fdd.js",
+    "runtime-main.js.map": "/mech-thing/static/js/runtime-main.849a2fdd.js.map",
+    "static/js/2.0160fee4.chunk.js": "/mech-thing/static/js/2.0160fee4.chunk.js",
+    "static/js/2.0160fee4.chunk.js.map": "/mech-thing/static/js/2.0160fee4.chunk.js.map",
+    "index.html": "/mech-thing/index.html",
+    "static/css/main.12c1305a.chunk.css.map": "/mech-thing/static/css/main.12c1305a.chunk.css.map",
+    "static/js/2.0160fee4.chunk.js.LICENSE.txt": "/mech-thing/static/js/2.0160fee4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.849a2fdd.js",
+    "static/js/2.0160fee4.chunk.js",
+    "static/css/main.12c1305a.chunk.css",
+    "static/js/main.79a4b024.chunk.js"
+  ]
+}
