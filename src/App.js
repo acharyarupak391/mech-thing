@@ -146,6 +146,12 @@ export default function App() {
   const handleGridClick = (e, type) => {
     if (selectedType === type) setSelectedType(0);
     else setSelectedType(type);
+    setTotalLength(null);
+    setL1("");
+    setL2("");
+    setL3("");
+    setL4("");
+    setL5("");
   };
 
   const handleThicknessChange = (e) => {
@@ -247,9 +253,11 @@ export default function App() {
                   label={`Enter length (L${idx + 1})`}
                   onChange={(e) => handleLengthChange(e, idx + 1)}
                   key={idx}
+                  value={eval("l" + (idx + 1))}
                   type="number"
                   variant="outlined"
                   inputProps={{ min: 0, step: 0.25 }}
+                  InputLabelProps={{shrink: !!eval("l" + (idx + 1))}}
                 />
               </Grid>
             ))}
