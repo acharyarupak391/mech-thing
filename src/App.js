@@ -187,10 +187,10 @@ export default function App() {
   };
 
   const images = [
-    "/images/type 1.jpg",
-    "/images/type 2.jpg",
-    "/images/type 3.jpg",
-    "/images/type 4.jpg"
+    "images/type 1.jpg",
+    "images/type 2.jpg",
+    "images/type 3.jpg",
+    "images/type 4.jpg"
   ];
   return (
     <div className="App">
